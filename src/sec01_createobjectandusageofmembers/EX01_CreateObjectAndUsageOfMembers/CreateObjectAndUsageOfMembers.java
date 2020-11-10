@@ -1,18 +1,17 @@
-package sec01.createobjectandusageofmembers.EX01_CreateObjectAndUsageOfMembers;
+package sec01_createobjectandusageofmembers.EX01_CreateObjectAndUsageOfMembers;
 
+/*클래스 구성과 객체의 생성 및 활용*/
 
 //#1. 클래스의 구성 (정의) : 붕어빵 기계
 class A {
-	int m=3;
-	
+	int m=3;	
 	void print() {
 		System.out.println("객체 생성 및 활용");
 	}
 }
 
 public class CreateObjectAndUsageOfMembers {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		//#2. 클래스로 부터 객체 생성 : 붕어빵
 		A a = new A();
 		
@@ -21,7 +20,5 @@ public class CreateObjectAndUsageOfMembers {
 		System.out.println(a.m); //5
 		
 		a.print(); //객체 생성 및 활용
-		
-		
 	}
 }
